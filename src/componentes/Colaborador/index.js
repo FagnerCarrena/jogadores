@@ -4,7 +4,7 @@ const Colaborador = ({nome, imagem ,funcao}) => {
 return (
 <div className='colaborador'>
 <div className='cabecalho'>
-    <img src={imagem} alt=''/>
+    <img src={imagem} alt='lutando'/>
     </div>
     <div className='rodape'>
         <h4>{nome}</h4>

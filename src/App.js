@@ -67,6 +67,7 @@ setColaboradores([...colaboradores, colaborador])
       corPrimaria={time.corPrimaria} 
       corSecundaria={time.corSecundaria}
       colaboradores={colaboradores.filter(colaborador=> colaborador.time === time.nome)}
+      //colaboradores é o estado, lembre se
       />)}
       
       

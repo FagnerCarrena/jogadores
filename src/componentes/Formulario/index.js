@@ -22,6 +22,10 @@ const aoSalvar = (evento)=>{
     imagem,
     time
   })
+  setNome('')
+  setFuncao('')
+  setImagem('')
+  setTime('')
 }
 
 return (

@@ -3,13 +3,12 @@ import './Time.css'
 
 const Time = (props)=>{
 return (
-    <section className="time" style={{backgroundColor: props.corSecundaria}}>
+    //poderia ser com ternário tbm
+    (props.colaboradores.length > 0) && <section className="time" style={{backgroundColor: props.corSecundaria}}>
         <h3 style={{borderColor:props.corPrimaria}}>{props.nome}</h3>
-        <div className="colaborador">
+        <div className="colaboradores">
         {props.colaboradores.map(colaborador=> <Colaborador nome={colaborador.nome} funcao={colaborador.funcao} imagem={colaborador.imagem} />)}
-
-
-        </div>
+ </div>
         
     </section>
 
