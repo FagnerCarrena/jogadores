@@ -7,7 +7,7 @@ return (
     (props.colaboradores.length > 0) && <section className="time" style={{backgroundColor: props.corSecundaria}}>
         <h3 style={{borderColor:props.corPrimaria}}>{props.nome}</h3>
         <div className="colaboradores">
-        {props.colaboradores.map(colaborador=> <Colaborador nome={colaborador.nome} funcao={colaborador.funcao} imagem={colaborador.imagem} />)}
+        {props.colaboradores.map(colaborador=> <Colaborador key={colaborador.nome} cordefundo={props.corPrimaria} nome={colaborador.nome} funcao={colaborador.funcao} imagem={colaborador.imagem} />)}
  </div>
         
     </section>
