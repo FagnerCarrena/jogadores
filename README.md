@@ -2,25 +2,21 @@ Confira o video explicativo do projeto Aqui:https://user-images.githubuserconten
 
 
 #
-Assista a previa Aqui:
-https://github.com/FagnerCarrena/cadastro-socio_torcedor/issues/1#issue-1653827735
 
 
 ---
 ##   👌Sobre
-O projeto consiste na criação de uma **Aplicação em vanilla** porém de forma responsiva, a idéia é simular um cadastro de clientes de uma cafeiteira 
-que atende os torcedores de um determinado clube. 
+O projeto consiste na criação de uma **Aplicação em React.js**, que consiste na  criação Cards de jogadores, assim que o usuário coloca o nome, função, digita o endereço da imagem e seleciona o time, o Card é gerado na parte de baixo do formulário. futuramente pretendo adicionar novas features.
+. 
 
 ###  ✔Tecnologias Utilizadas
 O projeto foi desenvolvido utilizando as seguintes tecnologias:
-- [HTML](https://www.alura.com.br/)
+- [React.js](https://www.alura.com.br/)
 - [CSS](https://www.alura.com.br/)
-- [JS](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/)
+- [JS](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/),
 
 ---
 ###    🐱‍🏍Como acessar o projeto
-abrir a pasta admin no vscode e
-rodar o json server:
+dentro da pasta de jogadores, insira o npm start
 
-```js
-json-server --watch db.json
+```
